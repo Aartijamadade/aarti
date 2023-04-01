@@ -1,4 +1,10 @@
-from zipfile import ZipFile
+from zipfile import ZipFile 
+
+folder_path = "C:/Users/Dipak/Desktop/output"
+
+zip_file_name = "output_1_0.zip"
+
+
 
 z=ZipFile("Output_1_0.zip",'w')
 
